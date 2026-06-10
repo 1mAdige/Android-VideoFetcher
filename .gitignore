@@ -1,0 +1,10 @@
+# Panel — çalışma zamanı verileri
+web-panel/config.local.php
+web-panel/videos/*.mp4
+web-panel/videos/*.MP4
+web-panel/data/devices.json
+web-panel/*.log
+
+# OS
+.DS_Store
+Thumbs.db
