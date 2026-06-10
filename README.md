@@ -1,5 +1,9 @@
 # Android VideoFetcher
 
+<p align="center">
+  <img src="docs/screenshots/apk-brand.jpg" alt="VideoFetcher — Smart remote video management" width="720">
+</p>
+
 **VideoFetcher** — Android signage ve kiosk cihazları için uzaktan video yönetimi.
 
 İmzalı Android uygulaması ve isteğe bağlı PHP web paneli içerir.
@@ -10,6 +14,38 @@
 | `web-panel/` | Video yükleme ve cihaz takip paneli |
 
 **İletişim:** [fth.elb@gmail.com](mailto:fth.elb@gmail.com) · [GitHub](https://github.com/1mAdige/Android-VideoFetcher)
+
+---
+
+## Ekran görüntüleri
+
+### Android uygulaması
+
+Video beklerken bekleme ekranı ve ayarlar (doğrudan MP4 URL veya panel adresi):
+
+<p align="center">
+  <img src="docs/screenshots/apk-waiting-for-video.jpg" alt="VideoFetcher — video bekleniyor" width="720">
+</p>
+<p align="center"><em>Video akışı beklenirken — ayarlara sağ üstten veya ekrana dokunarak ulaşılır</em></p>
+
+<p align="center">
+  <img src="docs/screenshots/apk-settings.jpg" alt="VideoFetcher — ayarlar ekranı" width="720">
+</p>
+<p align="center"><em>Ayarlar — MP4 URL, panel adresi ve kontrol aralığı (TR / EN)</em></p>
+
+### Web paneli
+
+Video yükleme, APK uç noktaları ve bağlı cihaz takibi:
+
+<p align="center">
+  <img src="docs/screenshots/panel-dashboard.jpg" alt="VideoFetcher Panel — kontrol paneli" width="900">
+</p>
+<p align="center"><em>Panel — henüz video yüklenmemiş durum</em></p>
+
+<p align="center">
+  <img src="docs/screenshots/panel-video-ready.jpg" alt="VideoFetcher Panel — video hazır" width="900">
+</p>
+<p align="center"><em>Panel — video yüklendi, oynatıcı önizlemesi ve cihaz listesi</em></p>
 
 ---
 
@@ -51,7 +87,7 @@ Uygulama  →  kontrol  →  indir  →  oynat
 
 ### 1. APK
 
-`apk/` klasöründeki dosyayı Android cihaza yükleyin.
+`apk/VideoFetcher-1.0.1-release.apk` dosyasını Android cihaza yükleyin.
 
 ### 2. Web paneli (isteğe bağlı)
 
